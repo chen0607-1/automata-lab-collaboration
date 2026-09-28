@@ -8,7 +8,7 @@
 #define MAX_RHS 32
 #define MAX_STATE 5
 #define MAX_STACK 5
-
+// Add input validation for automata transformation
 typedef struct {
     char lhs;
     char rhs[MAX_RHS];   /* empty string is saved as "" */
